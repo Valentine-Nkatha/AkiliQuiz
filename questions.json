@@ -22,12 +22,12 @@
       "choice1": " Document Object Manipulation",
       "choice2": "Document Obstruction Model",
       "choice3": "Document Object Model",
-      "choice4": "Documennt Obstruction Maker",
+      "choice4": "Document Obstruction Maker",
       "answer": "3"
     },
     {
       "question": "what is the smallest unit of a database?",
-      "choice1": "colummns",
+      "choice1": "columns",
       "choice2": " Tables",
       "choice3": "Rows",
       "choice4": "None",
