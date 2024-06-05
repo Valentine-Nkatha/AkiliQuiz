@@ -10,7 +10,7 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [];
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 3;
 const CORRECT_BONUS = 10;
 
       
