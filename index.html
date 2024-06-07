@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Akili Quiz</title>
-    <link rel="stylesheet" href="app.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div id="home" class="flex-center flex-column">
-       
-        <h1>Akili Quiz</h1>
-        <!-- <img src="images/match.png"  class="quiz"> -->
-        <a class="btn" href="/game.html">Play</a>
-        <a class="btn" href="/highscores.html">High Scores</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Akili Quiz</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="home" class="flex-center flex-column">
+      <h1>Akili Quiz</h1>
+      <p class="intro">Choose a category. See how many correct answers you can get out of 10 questions!</p>
+      <br>
+      <br>
+      <div class="one category">
+        <h4>CATEGORIES</h4>
+        <select id="categorySelect">
+          <option value="all">All</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="General Knowledge">General Knowledge</option>
+          <option value="Python">Python</option>
+          <option value="Flowers">Flowers</option>
+          <option value="Geography">Geography</option>
+          <option value="Science">Science</option>
+          <option value="Art">Art</option>
+          <option value="Literature">Literature</option>
+          <option value="Food">Food</option>
+          <option value="Math">Math</option>
+          <option value="Music">Music</option>
+          <option value="History">History</option>
+        </select>
       </div>
+      <div id="selected-category-placeholder" class="selected-category-placeholder"></div>
+      <br>
+      <br>
+      <br>
+      <a class="btn" href="game.html">Play</a>
+      <a class="btn" href="highscores.html">High Scores</a>
     </div>
-  </body>
+  </div>
+  <script src="index.js"></script>
+</body>
 </html>
